@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2013.12.4)  5 DEC 2013 16:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2013.12.4)  5 DEC 2013 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -647,7 +647,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen135
 \Gin@req@width=\dimen136
 )
-No file chapter2.aux.
+(./chapter2.aux)
 \openout1 = `chapter2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -728,7 +728,7 @@ LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
-(d:/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+ (d:/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count122
 \scratchdimen=\dimen137
@@ -805,8 +805,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 15.
-
-No file chapter2.toc.
+ (./chapter2.toc)
 \tf@toc=\write3
 \openout3 = `chapter2.toc'.
 
@@ -822,6 +821,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7.53> on input line 27.
 LaTeX Font Info:    Try loading font information for C70+zhkai on input line 33
 .
+
 (d:/texlive/2013/texmf-dist/tex/latex/zhmetrics/c70zhkai.fd
 File: c70zhkai.fd 2009/09/23 4.8.2
 )
@@ -836,63 +836,61 @@ Package pdftex.def Info: Rplot.png used on input line 47.
 (pdftex.def)             Requested size: 301.12732pt x 301.12732pt.
  [1
 
-] [2 <./Rplot.png>] (./chapter2.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] [2 <./Rplot.png>] (./chapter2.aux) ) 
 Here is how much of TeX's memory you used:
- 10533 strings out of 493315
- 176780 string characters out of 6141455
- 207363 words of memory out of 5000000
- 13536 multiletter control sequences out of 15000+600000
- 42472 words of font info for 155 fonts, out of 8000000 for 9000
+ 10558 strings out of 493315
+ 177200 string characters out of 6141455
+ 208371 words of memory out of 5000000
+ 13547 multiletter control sequences out of 15000+600000
+ 45210 words of font info for 165 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  40i,8n,30p,841b,1041s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/s
-imsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows
-/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:
-/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun
-.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/font
-s/simhei.ttf><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Wind
-ows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf>
-<c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/sim
-kai.ttf><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/f
-onts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/W
-indows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.t
-tf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/
-simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simsun.ttc><c:/Window
-s/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c
-:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsu
-n.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fon
-ts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Win
-dows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc
-><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/si
-msun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/
+<c:/Windows/fonts/simsun.ttc><c:/Windows/
 fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/
 Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.
-ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts
-/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windo
-ws/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><
-c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/sims
-un.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fo
-nts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Wi
-ndows/fonts/simsun.ttc><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.tt
-f><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/s
-imsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows
-/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:
-/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><d:/texlive/2013/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2013/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2013/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr12.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-5.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/t
-exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><d:/texlive/20
-13/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on chapter2.pdf (2 pages, 269284 bytes).
+ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts
+/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windo
+ws/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><
+c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simk
+ai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fo
+nts/simkai.ttf><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Wi
+ndows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.tt
+f><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/s
+imkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows
+/fonts/simkai.ttf><c:/Windows/fonts/simkai.ttf><c:/Windows/fonts/simsun.ttc><c:
+/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun
+.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/font
+s/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Wind
+ows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc>
+<c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/sim
+sun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/f
+onts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/W
+indows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.t
+tc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/
+simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simhei.ttf><c:/Window
+s/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c
+:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhe
+i.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fon
+ts/simhei.ttf><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Win
+dows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc
+><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/si
+mhei.ttf><c:/Windows/fonts/simhei.ttf><c:/Windows/fonts/simsun.ttc><c:/Windows/
+fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/
+Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.
+ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts
+/simsun.ttc><d:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.p
+fb><d:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/201
+3/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2013/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2013/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr5.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr7.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsl10.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
+fb>
+Output written on chapter2.pdf (2 pages, 276666 bytes).
 PDF statistics:
- 457 PDF objects out of 1000 (max. 8388607)
- 297 compressed objects within 3 object streams
+ 461 PDF objects out of 1000 (max. 8388607)
+ 300 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  222 words of extra memory for PDF output out of 10000 (max. 10000000)
 
