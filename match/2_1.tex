@@ -1,0 +1,69 @@
+% fleqn,控制公式左对齐
+\documentclass[fleqn]{article}
+\usepackage{xeCJK}
+
+% 自定义页眉
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\chead{减去一个数等于加上这个数的相反数}
+\cfoot{学而思暑期班\phantom{how}第二讲随材}
+% mathtools数学环境
+\usepackage{mathtools}
+% 控制页边距
+\usepackage[a4paper,left=2cm,right=3cm,top=2cm,bottom=3cm]{geometry}
+\setCJKmainfont{SimSun}
+
+% title
+\title{重难点演练：有理数的四则运算1}
+% 不显示时间
+\date{}
+\begin{document}
+  % 这里设置标题的样式
+  \hspace{4cm}{\Large 重难点演练：有理数的四则运算1}
+  \\
+  \noindent加减混合运算5题：\\
+  加减法则：\\
+  同号两数相加，取相同的符号，并把绝对值相加。\\
+  异号两数相加，取绝对值较大的符号，并用较大的绝对值减去较小的绝对值\\
+  减法法则：\\
+  减去一个数等于加上这个数的相反数。\\
+  所有的减法首先转化成加法，然后计算\\
+	\[\text{1、}24-(-6)+(-25)-15\]
+
+	\[\text{2、}12-(-18)+(-7)-15\]
+
+	\[\text{3、}-6-8-2+3.54-4.72+16.46-5.28\]
+
+	\[\text{4、}15-(+5\frac 56)-(+3\frac 37)+(-2\frac 16)-(+6\frac 47)\]
+
+	\[\text{5、}(-5\frac 23)-(+\frac 14)+(-\frac 13)+(+5)-(-1\frac 14)\]
+
+  \noindent乘除混合运算5题：\\
+  乘法法则：同号得正，异号得负，奇负偶正\\
+  除法法则：除以一个数等于乘以这个数的倒数\\
+  所有的除法先转换成乘法，然后再计算\\
+	\[\text{1、}1.25\times\frac59\times(-4)\times0.6\]
+
+	\[\text{2、}|-16|\times(-\frac34-\frac12+\frac38)\]
+
+	\[\text{3、}(-\frac12-\frac34+\frac56-0.75)\div(-\frac1{24})\]
+
+	\[\text{4、}11\frac13\times(-\frac2{17})\times18\frac23\div(-\frac79)\]
+
+	\[\text{5、}12\div(-3-\frac14+1\frac13)\]
+
+  \newpage
+  \noindent 答案：\\
+  加减法：\\
+	\[\text{1、}-10\]
+	\[\text{2、}8\text{减法先化成加法}\]
+	\[\text{3、}-6\text{减法化加法，然后小数部分凑整}\]
+	\[\text{4、}-3\text{减法化成加法后，同分母放一起计算}\]
+	\[\text{5、}0\]
+  乘除法:\\
+	\[\text{1、}-\frac35\]
+	\[\text{2、}-14\]
+	\[\text{3、}28\]
+	\[\text{4、}32\]
+	\[\text{5、}-\frac{144}{23}\]
+  \end{document}
