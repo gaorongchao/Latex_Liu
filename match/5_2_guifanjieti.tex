@@ -1,0 +1,86 @@
+\documentclass[fleqn,UTF8]{ctexart}                                       % fleqn,控制公式左对齐
+
+\usepackage[a4paper,left=2cm,right=3cm,top=2cm,bottom=3cm]{geometry} % 控制页边距
+
+\usepackage{mathtools}                                               % mathtools数学环境
+\usepackage{xeCJK}
+\usepackage{fancyhdr}                                                % 自定义页眉
+\pagestyle{fancy}
+\setCJKmainfont{SimSun}
+\chead{世界不灭，挑战不止！\phantom{how}\thepage}                                                             % 页眉
+\cfoot{学而思\phantom{how}第5讲随材}                                                % 页脚
+
+\title{}                                              % title
+\date{}                                                              % 不显示时间
+
+
+\begin{document}
+
+\hspace{5cm}{\Large \kaishu 整式的加减}                                 % 这里设置标题的样式
+
+\noindent1、\kaishu \textbf{同类项：}所含字母相同，并且相同字母的指数也相同的单项式叫做同类项。\\
+2、\textbf{合并同类项：}把同类项的系数相加，所含字母和字母的指数不变。\\
+\phantom{2、\textbf{合并同类项：}} 找同类项 => 在一起 => 系数相加减。\\
+3、\textbf{去括号：}“$+$”：去掉括号以后，各项符号都不改变。\\
+\phantom{3、去括号：}“$-$”：去掉括号以后，各项的符号都改变。\\
+\phantom{3、去括号：} 括号前面的数要和括号里的每一项相乘\\
+\phantom{3、去括号：=} $-3(-a+2b)$ (两步走)\\
+\phantom{3、去括号：} $ =-(-3a+6b)$(3先和括号里的每一项相乘)\\
+\phantom{3、去括号：} $ =3a-6b$(去括号)\\
+4、\textbf{添括号：}“$+$”：添上括号以后，各项符号都不改变。\\
+\phantom{3、去括号：}“$-$”：添上括号以后，各项的符号都改变。\\
+5、\textbf{整式的加减：}去括号+合并同类型\\
+6、\textbf{做差法比较大小：}$A-B>0,A>B$\\
+7、\textbf{与某一项无关：}比如，不含ab项，说明所有ab项的系数和为0。\\
+\newpage
+
+\hspace{5cm}{\Large \kaishu 规范解题4例}\\
+例5:(3)、先化简，再求值:\\
+\[\text{已知:}(a+2)^2+|b-\frac14|=0,\text{求}5a^2b-[2a^2b-(ab^2-2a^2b)-4]-2ab^2\text{的值}\]
+\[\text{解：因为}(a+2)^2+|b-\frac14|=0\]
+\[\text{\phantom{解：}所以}a+2=0,b-\frac14=0\]
+\[\text{\phantom{解：}所以}a=-2,b=\frac14\]
+\[\text{\phantom{解：}原式}=5a^2b-2a^2b+(ab^2-2a^2b)+4-2ab^2\text{(去大括号)}\]
+\[\text{\phantom{解：原式}}=5a^2b-2a^2b+ab^2-2a^2b+4-2ab^2\text{(去小括号)}\]
+\[\text{\phantom{解：原式}}=5a^2b-2a^2b-2a^2b+ab^2-2ab^2+4\text{(找同类项，在一起)}\]
+\[\text{\phantom{解：原式}}=a^2b-ab^2+4\text{(合并同类项)}\]\\
+\[\text{\phantom{解：原式}}\text{把}a=-2,b=\frac14\text{代入，得：}\]
+\[\text{\phantom{解：原式}}(-2)^2\times\frac14-(-2)\times(\frac14)^2+4\]
+\[\text{\phantom{解：原}}=1+\frac18+4\]
+\[\text{\phantom{解：原}}=5\frac18\]\\
+\[\text{例6(1)、若}a+b=4,ab=-2,\text{求代数式}(4a-3b-2ab)-(a-6b+ab)\text{的值}\]
+\[\text{解：原式}=4a-3b-2ab-a+6b-ab\text{(去括号)}\]
+\[\text{\phantom{解：原式}}=4a-a-3b+6b-2ab-ab\text{(找同类项，在一起)}\]
+\[\text{\phantom{解：原式}}=3a+3b-3ab\text{(找同类项，在一起)}\]\\
+\[\text{\phantom{解：}把}a+b=4,ab=2\text{代入}\]
+\[\text{\phantom{解：=}}3a+3b-3ab\]
+\[\text{\phantom{解：}}=3(a+b)-3ab\]
+\[\text{\phantom{解：}}=3\times4-3\times(-2)\]
+\[\text{\phantom{解：}}=12+6\]
+\[\text{\phantom{解：}}=18\]\\
+\newpage
+\[\text{例6(2)、若}2x^2-3x+1=0,\text{求代数式}5x^2-[5x^2-2(2x^2-x)+4x-5]\text{的值}\]
+\[\text{解：原式}=5x^2-5x^2+2(2x^2-x)-4x+5\text{(去中括号)}\]
+\[\text{\phantom{解：原式}}=(4x^2-2x)-4x+5\text{(把2乘进括号)}\]
+\[\text{\phantom{解：原式}}=4x^2-2x-4x+5\text{(去小括号)}\]
+\[\text{\phantom{解：原式}}=4x^2-6x+5\text{(合并同类项)}\]\\
+\[\text{\phantom{解：}因为}2x^2-3x+1=0\]
+\[\text{\phantom{解：}所以}2x^2-3x=-1\text{(引导孩子观察题目，给出的条件和要求的内容有什么联系)}\]\\
+\[\text{\phantom{解：=}}4x^2-6x+5\]
+\[\text{\phantom{解：}}=2(2x^2-3x)+5\]
+\[\text{\phantom{解：}把}2x^2-3x=-1\text{代入，得}\]
+\[\text{\phantom{解：=}}2\times(-1)+5\]
+\[\text{\phantom{解：}}=(-2)+5\]
+\[\text{\phantom{解：}}=3\]\\
+\[\text{例7、若}A=2y^2+3ky-2y-1,B=-y^2+ky-1\text{且}3A+6B\text{的值与}y\text{无关,求k的值}\]
+\[\text{解：\phantom{=}}3A+6B\]
+\[\text{\phantom{解：}}=3(2y^2+3ky-2y-1)+6(-y^2+ky-1)\]
+\[\text{\phantom{解：}}=6y^2+9ky-6y-3-6y^2+6ky-6\text{(去括号)}\]
+\[\text{\phantom{解：}}=6y^2-6y^2+9ky-6y+6ky-3-6\text{(找同类项，在一起)}\]
+\[\text{\phantom{解：}}=12y^2+(9k-6+6k)y-9\text{(找同类项，在一起)}\]
+\[\text{\phantom{解：}}=12y^2+(15k-6)y-9\]\\
+\[\text{\phantom{解：}}\text{因为与y项无关}\]
+\[\text{\phantom{解：}}\text{所以}(15k-6)y=0\]
+\[\text{\phantom{解：}}\text{所以}15k-6=0\]
+\[\text{\phantom{解：}}\text{所以}k=\frac25\]
+\end{document}
