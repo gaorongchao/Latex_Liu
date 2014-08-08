@@ -1,25 +1,27 @@
-\documentclass[fleqn]{article}                                       % fleqn,控制公式左对齐
+\documentclass[fleqn]{ctexart}                                       % fleqn,控制公式左对齐
 
 \usepackage[a4paper,left=2cm,right=3cm,top=2cm,bottom=3cm]{geometry} % 控制页边距
 
 \usepackage{mathtools}                                               % mathtools数学环境
-\usepackage{xeCJK}
-\usepackage{mathptmx} % 数学公式中的字体
-\usepackage{multicol} % 分栏
+%\usepackage{xeCJK}
+\usepackage{mathptmx}                                                % 数学公式中的字体
+\usepackage{multicol}                                                % 分栏
+\usepackage{amsmath}
 \usepackage{fancyhdr}                                                % 自定义页眉
 \pagestyle{fancy}
 \setCJKmainfont{SimSun}
 \chead{}                                                             % 页眉
+% \kaishu需要对加大括号包围
 \cfoot{\phantom{how}}                                                % 页脚
 
-\title{}                                              % title
+\title{}                                                             % title
 \date{}                                                              % 不显示时间
 
 
 \begin{document}
-
-\hspace{4cm}{\Large 公式}                                 % 这里设置标题的样式
-
-
+%\begin{multicols}{2}
+\centerline{\Large 公式}                                 % 这里设置标题的样式
+%\coluumbreak
+%\end{multicols}
 \end{document}
 
